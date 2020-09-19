@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(53, 53, 53);
+  color: rgb(224, 224, 224);
+  font-family: monospace;
+}
+
+fieldset {
+  display: flex;
+  border-style: none;
+}
+
+.clear-contact {
+  background-color: rgb(143, 3, 3);
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px auto 10px auto;
+  width: 250px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.clear-contact:hover {
+  background-color: rgb(250, 65, 59);
+  color: #303030;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px black;
+}
+
+.submit-contact {
+  background-color: #399430;
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px auto 10px auto;
+  width: 250px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.submit-contact:hover {
+  background-color: lightgreen;
+  color: #303030;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px black;
+}
+
+#contact-name,
+#contact-email,
+#contact-birthDate {
+  height: 40px;
+  border-radius: 15px;
+  border-style: none;
+  margin: 5px;
+  width: 75%;
+  box-shadow: 3px 3px 5px black;
+}
+
+#contact-emailConsent {
+  height: 20px;
+  width: 20px;
+  margin: auto;
+}
+
+h2 {
+  text-decoration: underline;
+}
